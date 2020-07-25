@@ -5,21 +5,24 @@
   <meta charset="UTF-8">
   <title>Activity 1: Basic HTML Bio</title>
   <style>
-    body {
-        background-image: src= "geometric.jpeg";
-background-size:cover;
-    }
     h1{
         font-size: 60px;
-        color: crimson;
+        color: cyan;
         text-align: center;
         text-decoration: underline;
         background-color: black;
+    }
+    h2{
+        color: blue;
+        text-shadow: purple;
+        font-size: large;
+    
     }
     img{
         margin-left: auto;
         margin-right: auto;
         display: block;
+        box-shadow: 10px 10px 5px;
     }
     ul{
         text-align: center;
@@ -33,6 +36,26 @@ background-size:cover;
         text-decoration: cyan;
         color: cyan;
     }
+    table{
+        text-align: center; 
+        border-color: gold;
+        background-color: blueviolet;
+        text-decoration: cyan;
+        margin-left: auto;
+        margin-right: auto;
+        align-content: center;
+        border-style: double;
+        color: cyan;
+
+    }
+    #blue{
+        color: blue;
+    }
+    #purple{
+        color: blueviolet;
+    }
+
+
     </style>
 </thead>
 </head>
@@ -41,8 +64,8 @@ background-size:cover;
   <h1>Maury Agami</h1>
   <tbody>
 
-    <img target="_blank" src="Screenshot me.png" alt="Me!" style="width:450px;height:500px;">   
-    <img target="_blank" src="screenshot team.png" Alt=" My culinary team at O&B" style="width:800px;height:600px;">
+    <img target="_blank" src="Screenshot me.png" alt="Me!" style="width:275px;height:300px;">   
+    <img target="_blank" src="screenshot team.png" Alt=" My culinary team at O&B" style="width:400px;height:300px;">
 <h2>Who I am:</h2>
 <p>
        I am a "near" 30 year old who studied culinary arts. I consider myself pretty geeky (as much as anyone else taking this course probably).
@@ -62,13 +85,14 @@ background-size:cover;
       I couldn't be happier with my team ... and this course!<br>
     </p>
 
-      
+      <p>
         <br>If you wanna follow me on social media here are my links:<br>
         <ul>
-          <li> <a href ="https://www.facebook.com/Maury.agami">Facebook</a> </li>
-            <li> <a href= "https://www.instagram.com/the_mauryshow/?hl=en" >Instagram </a></li>
+          <li id="blue"> <a href ="https://www.facebook.com/Maury.agami">Facebook</a> </li>
+            <li id="purple"> <a href= "https://www.instagram.com/the_mauryshow/?hl=en" >Instagram </a></li>
             <li><a href="https://www.instagram.com/nori_san_thecat/?hl=en"> My cat's Instagram</a></li>
         </ul>
+
       <table border="2">
           <thead>
             <tr>
@@ -136,6 +160,7 @@ background-size:cover;
             </tr>
           </thead>
       </table>
+    </p>
   </tbody>
 
 </body>
